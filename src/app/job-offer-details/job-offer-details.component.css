@@ -1,0 +1,159 @@
+/* Main-Container */
+.main-container{
+    height: 180vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 140vh;
+    margin-top: 170px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+
+/* Retailer marketing */
+.data-con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+}
+.left-data-sec{
+    width: 19%;
+    height: 100%;
+    padding: 10px;
+    color: #856C3F;
+    display: flex;
+    flex-direction: column;
+}
+.right-data-sec{
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+/* card1 */
+#card1{
+    width: 265px;
+    height: 182.21px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+/* card1-btn-span */
+#card1 .btn{
+    width: 119px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: #856C3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#card1 .btn span{
+    font-size: 16px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    color: white;
+}
+/* h5 */
+h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* time-data */
+.time-data{
+    width: 60%;
+}
+.time-data span{
+    margin-left: 20px;
+}
+.line{
+    padding-bottom: 10px;
+}
+/* card2 */
+#card2{
+    width: 263px;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+/* right card */
+#right-card{
+ width: 944.4px;
+ height: 620px;
+ border-radius: 20px;
+ background-color: #FFFFFF;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-left: 10px;
+ margin-top: 80px;
+}
+/* table */
+table{
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+table tr td{
+    padding: 20px;
+  }
+  
+  table tr td:first-child {
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(3) {
+    background-color: #FFFFFF;
+  }
+  
+  /* right-data-sec-btn */
+  .right-data-sec-btn{
+    width: 133.39px;
+    height:38.2px ;
+    background-color: #BF9E66;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+  }

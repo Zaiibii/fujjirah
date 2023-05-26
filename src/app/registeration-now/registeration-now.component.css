@@ -1,0 +1,241 @@
+.main-container{
+    height: 390vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 20vh;
+    margin-top: 170px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+
+/* data-con */
+.data-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+/* sec-left */
+.sec-left{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* data-one */
+.data-one{
+    width: 552.05px;
+    height: 43.86px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #BF9E66;
+    font-size: 17px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+}
+
+/* data-two */
+.data-two{
+    width: 552.05px;
+    height: 43.86px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #BDBDBD;
+    font-size: 17px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+}
+
+
+
+/* sec-right */
+.sec-right{
+    width: 60%;
+    height: 175vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width:95%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 50px;
+    border: 1px solid #707070;
+}
+/* 1st-field */
+
+.field  p{
+    width: 8rem;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-family: 'Montserrat','Regular';
+    font-size: 17px;
+    color: #707070;
+}
+
+/* email */
+.email{
+    width:606px;
+    height: 84px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+.text{
+    width:606px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #dbdada;
+}
+
+/* password */
+.password{
+    width: 606px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid #707070;  
+}
+
+
+/* placeholder*/
+#field::placeholder {
+    color: #C8C8C8;
+  }
+#field:focus{
+    color: rgb(0, 39, 148);
+}
+
+  #emirates-select{
+    font-size: 14px;
+    width: 606px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    color: #a39f9f;
+    background-color: white;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/sort-down3.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+
+  /* Radio */
+  #radio-field label{
+    font-size: 20px;
+    color: #707070;
+}
+
+/* label-2 */
+#label-2{
+    margin-left: 20px;
+}
+#radio-field   input[type="radio"] {
+    transform: scale(1.5); /* Increase the size by 50% */
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+/* radio-field */
+#radio-field{
+    width: 606px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-left: 50px;
+}
+input[type=radio]{
+    border:2px solid white;
+    box-shadow:0 0 0 1px #bf9e66;
+    appearance:none;
+    border-radius:50%;
+    width:14px;
+    height:14px;
+    background-color:#fff;
+    transition:all ease-in 0.2s;
+  
+  }
+  input[type=radio]:checked{
+    background-color:#BF9E66;
+  }
+
+
+  /* card-btns */
+  .card-btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+.btn{
+    width:315px ;
+    height:72px ;
+    background-color: #BF9E66;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #707070;
+  }

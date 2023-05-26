@@ -1,0 +1,168 @@
+.carousel-container{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    bottom: 10px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 180px;
+}
+.left-capt{
+    width: 400px;
+    color: #1A1718;
+     font-family: 'Montserrat',sans-serif;
+    text-align: left;
+    position: relative;
+    top: 190px;
+}
+.left-capt h5{
+    font-size: 23px;
+}
+.left-capt h1{
+    font-size: 37px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.left-capt .know{
+    width: 108.51px;
+    height: 40.62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgb(146,13,25);
+    background: linear-gradient(89deg, rgba(146,13,25,1) 1%, rgba(202,6,29,1) 100%);
+}
+.left-capt .know p{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 6px;
+}
+.right-capt{
+    z-index: 2;
+    width: 350px;
+    position: relative;
+    left: 40px;
+    top: 290px;
+}
+.right-capt .para{
+    color: #040505;
+    font-size: 12px;
+    font-weight: 620;
+}
+.ruler-name{
+    width: 340.56px;
+    height: 49.92px;
+    border-radius: 35px;
+    font-size: 15.42px;
+    background: rgb(146,13,25);
+    background: linear-gradient(89deg, rgba(146,13,25,1) 1%, rgba(202,6,29,1) 100%);
+}
+.ruler-logo{
+    z-index: 1;
+    position: relative;
+    top: 120px;
+    right: 30px;
+}
+.ruler-logo img{
+    height: 369.84px;
+    width: 257.04px;
+    border-radius: 115px;
+}
+
+.flag{
+    z-index: 1;
+    position: relative;
+    top: 255px;
+    right: 120px;
+
+}
+@media only screen and (min-width:1550px) and (max-width:1900px){
+    .carousel-container{
+        position: relative;
+        height: 10vh                                                                                                                                                                                                               0vh;
+        left: 20%;
+        bottom: 10px;
+        width: 105rem;
+    }
+
+}
+
+@media only screen and (min-width:1440px) and (max-width:1550px){
+
+    .carousel-container{
+        position: relative;
+        height: 10vh                                                                                                                                                                                                               0vh;
+        left: 15%;
+        bottom: 10px;
+        width: 110rem;
+    }
+
+
+    .data{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-capt h5{
+        font-size: 20px;
+    }
+
+    .right-capt{
+        font-size: 15px;
+    }
+
+    .ruler-name{
+        width: 311.56px;
+        height: 40.92px;
+        border-radius: 35px;
+        font-size: 12.42px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1700px){
+
+    .carousel-container{
+        position: relative;
+        width: 92%;
+        left: 3%;
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .carousel-container{
+        position: relative;
+        width: 180%;
+        left: 7%;
+        bottom: -6px;
+    }
+
+    
+}   
+
+@media only screen and (min-width:280px) and (max-width:451px){
+
+    .carousel-container{
+        position: relative;
+        width: 180%;
+        left: 21%;
+        bottom: 10px;
+    }
+}
+
+
+/* mobile Medium */
+@media only screen and (min-width:200px) and (max-width: 427px){
+
+    .carousel-container{
+        position: relative;
+        width: 250%;
+        left: -14%;
+    }
+
+    
+}
+

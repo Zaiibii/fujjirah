@@ -1,0 +1,124 @@
+.main-container{
+    height: 1166.67px;
+    width: 100%;
+    background-color: rgba(248, 245, 238, 0.932);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.main-page{
+    width: 70%;
+    height: 80vh;
+    margin-left: 40px;
+}
+.text-about{
+    margin-left: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+.text-about h1{
+    font-weight: 540;
+}
+.text-about p{
+    font-weight: 420;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .section{
+    border: 1px solid blue;
+    display: flex;
+} */
+.section-one{
+    display: flex;
+    justify-content: start;
+}
+.left-sec{
+    color: #9f814a71;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  .right-sec{
+    display: flex;
+    width: 400px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+}
+  /* search bar */
+  input[type=text]{
+    border: 1px solid rgba(208, 193, 140, 1);
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    font-size: 16px;
+    caret-color: #856C3F;
+    background-color:#ffffff;
+}
+input:focus{
+    width: 380px;
+    border: 1px solid #b58c41;
+    color: #dca53f;
+    outline: none;
+}
+input::placeholder{
+    color:#ae8a46;
+    position: relative;
+    left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ic{
+    display: flex;
+}
+.search-ico{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 45px;
+   width: 45px;
+    background-color: #856C3F;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    right: 30px;    
+    bottom: 2px;
+}
+.section-two{
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+}
+/* Table creation */
+.table{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: start;
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+  td, th {
+    border: none;
+    text-align: left;
+    padding: 6px;
+  }
+  
+  tr {
+   border: none;
+  }
+  
+  th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  

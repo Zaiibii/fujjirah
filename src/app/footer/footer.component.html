@@ -1,0 +1,137 @@
+<div class="main-container">
+  <div class="info-border">
+    <div class="text-info">
+      <h3>
+        Did <b>t</b>he <b>inf</b>orma<b>t</b>ion on this we<b>b</b>si<b>t</b>
+        assis<b>t</b><br /><b>yo</b>u i<b>n</b> reaching your <b>g</b>aol?
+      </h3>
+      <div class="yes-btn"><p>Yes</p></div>
+      <div class="no-btn"><p>No</p></div>
+    </div>
+
+     <!-- Searchinfo -->
+  <div class="search-info">
+    
+    <div *ngIf="displaySearchBar">
+      <app-search class="app-search"></app-search>
+    </div>
+  </div>
+  <div class="instant-icon">
+    
+      <div *ngIf="!displaySearchBar" class="chat-box">
+        <app-instant-chat class="about-us-instant-icon" [ngClass]="{'instant-icon':true}"></app-instant-chat>
+      </div>
+  </div>
+
+  </div>
+  <div class="slider">
+    <div class="ng-main-container">
+      <div class="ng-container">
+      <ng-image-slider #nav
+      [images]="imageObject"
+      [infinite]="true"
+      [autoSlide]="1"
+      [imageSize]="{width: '25%', height: 180,space:35}"
+      slideImage="1" class="ng-image-slider">
+      <div class="imgs">
+      </div>
+    </ng-image-slider>
+    </div>
+    </div>
+  </div>
+ 
+    <div class="footer-about">
+      <div class="quick-links">
+        <h4>Quick links</h4><br>
+        <ul>
+          <li>Site Map</li>
+          <li>FAQ</li>
+          <li>Support</li>
+          <li>Suggestions</li>
+          <li>Terms and Conditions</li>
+          <li>Users Services Policy</li>
+          <li>Privacy Policy</li>
+          <li>Copyrights</li>
+          <li>Disclaimer</li>
+        </ul>
+      </div>
+      <div class="right-sec-detail">
+        <div class="subscribe">
+          <h4 >Subscribe</h4>
+          <div class="other-info">
+            <div class="call-centre">
+              <div class="iconii"><img src="../assets/images/calling.png" alt="" height="42px" width="42px" ></div>
+              <div class="call-txt">
+                <span>Call Center</span><br>
+                <span class="idi" style="color:black; position: relative; top: 11px; "><b>600 547 600</b></span>
+              </div>
+            </div>
+            <div class="downloads">
+              <div class="iconii-muwaad"><img src="../assets/images/muwaad.png" alt="" height="50px" width="50px" ></div>
+              <div class="download-text">
+                 <span>Mawared App <br> <b>Free Download</b></span>
+                 <div class="appicons">
+                    <img src="../assets/images/apple.png" alt="" >
+                    <span class="border"></span>
+                    <img src="../assets/images/play.png" alt="">
+                 </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+
+        <!-- Location-map -->
+        <div class="location-con">
+          <h4>Location Map</h4>
+          <div class="location">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1215.1725628334436!2d56.33367646197247!3d25.124940774365612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHuman%20Resource%20DepartmentFujairah%20Government%20Finance%20Department%20-%20Fujairah%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1680601087733!5m2!1sen!2s" width="400px" height="240px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>  
+
+        <!--Official Buisness Hours  -->
+
+        <div class="office-hours-con">
+          <h4>Official Buisness Hours</h4>
+          <div class="office-hours">  
+            <div class="timmings" style="margin-bottom: 100px;">
+              <h6 style="text-align: center;">Working Hour</h6>
+              <h6 style="text-align: center;">Timmings</h6>
+              <p  style="text-align: center;">Monday to Thursday</p>
+              <p  style="text-align: center;">7:30 AM to 3:30PM</p>
+            </div>
+              <div class="clock-weather">
+                <iframe class="clock" _ngcontent-serverapp-c41="" src="https://free.timeanddate.com/clock/i6kgqvns/n776/szw110/szh110/hocce8251/hbw25/hfcf90/cf100/hgr0/fas20/facfff/fdi88/mqcfff/mqs2/mql3/mqw4/mqd70/mhv0/mmv0/hhcfff/hhs2/hmcfff/hms2/hsv0" frameborder="0" style="pointer-events: none;"></iframe>
+                <img class="weather" _ngcontent-serverapp-c41="" src="https://firebasestorage.googleapis.com/v0/b/fujairah-dummy.appspot.com/o/167165948063032_9873_1_1_e67e22_250_d35401_ffffff_ffffff_1_2071c9_ffffff_0_6.webp?alt=media&amp;token=8644be06-a46b-45f3-b4c5-b2165e5eb2b5">
+              </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  <!-- Footer Address -->
+  <div class="footer-lower">
+    <div class="Footer-Address">
+      <div class="txt-address">
+        <span>Page last update on: November  01,2022 03:19 PM</span><br>
+        <span>This site is last viewd in 1024*768 screen resolution,</span><br>
+        <span>Supports Internet Explorer 11.0+, Firefox 10.0+, Safari 3.0, Google Chrome 12.0</span><br>
+      </div>
+      <div class="visitors-length">
+        <span>No of Visitors : 2865852</span>
+      </div>
+      <div class="social-media">
+        <span style="color:white">Follow  us</span>
+        <img src="../assets/images/instagram.png" alt="" height="60" width="60" >
+        <img src="../assets/images/twitter.png" alt="" height="60" width="60">
+        <img src="../assets/images/youtube.png" alt="" height="60" width="60" >
+        <img src="../assets/images/facebook.png" alt="" height="60" width="60" >
+      </div><br>
+    </div>
+    <div class="hr"></div>
+    <div class="copyrights">
+      <span style="color:white; display: flex; justify-content: center; margin-top: 20px;">Copyright@ 2022 Fujairah Human Resources Department.All Rights Reserved</span>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,118 @@
+.main-container{
+    height: 190vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 20vh;
+    margin-top: 170px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+
+/* cards-container */
+.cards-container{
+    width: 80%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+/* sec-1 */
+.sec-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/* card */
+.card{
+        width: 415px;
+        height: 466px;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+}
+
+/* .sec-2 */
+.sec-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* image-sec */
+.image-sec{
+    margin-top: 10px;
+}
+
+/* .head-sec */
+.head-sec{
+width: 95%;
+margin: 10px 0px;
+font-family: 'Montserrat-Medium';
+font-weight: 550;
+color: #856C3F;
+}
+.head-sec h4{
+    font-family: 'Montserrat','serif';
+    font-size: 20px;
+}
+/* .para-sec */
+.para-sec{
+    width: 90%;
+    margin-right: 20px;
+}
+.para-sec p{
+    font-family: 'Montserrat','Regular';
+    font-size: 14px;
+}
+/* date-add-sec */
+.date-add-sec{
+    display: flex;
+    width: 95%;
+}
+.date-add-sec span{
+    margin-left: 10px;
+}
+
+/* time-sec */
+.time-sec{
+    margin-left: 30px;
+}
+.time-sec span{
+    color: #856C3F;
+    font-size: 14px;
+    font-family: Arial;
+    margin-left: 10px;
+}

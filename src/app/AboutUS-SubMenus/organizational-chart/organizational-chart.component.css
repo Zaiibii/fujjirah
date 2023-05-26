@@ -1,0 +1,42 @@
+.main-container{
+    height:1309.7px;
+    width: 100%;
+    padding: 0px;background-color: #fef7eb;
+
+}
+.breadcrumb{
+    display: flex;
+}
+.breadcrumb .bi-house-door-fill{
+    margin-bottom: 5px;
+}
+.breadcrumb-item a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.all-data{
+    display: flex;
+    padding-bottom: 200px;
+    margin-left: 110px;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    margin-left: 220px;
+}
+.imgg{
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.image-text-con{
+    display: flex;
+    align-items: start;
+}
+.mid-sec{
+    margin-left: 330px;
+    margin-top: -160px;
+}

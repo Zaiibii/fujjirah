@@ -1,0 +1,246 @@
+.main-container{
+    height: 280vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 70%;
+    margin-top: 170px;
+    border-bottom: 2px solid silver;
+}
+
+/* breadcrumb-main-container */
+.breadcrumb-main-container{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+}
+/* Breadcrumb */
+.breadcrumb-1{
+    width: 85%;
+    margin-right: 0px;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+    font-weight: 550;
+}
+/* personal-details-con */
+.personal-details-con{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+
+/* personal-details-con */
+.details-sub-container{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* sec-1 */
+.sec-1{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+/* left-img */
+.left-img img{
+    border-radius: 70px;
+}
+/* right-detail */
+.right-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.right-detail h5{
+    font-size: 22px;
+}
+/* span-locat */
+.span-locat{
+    font-size: 22px;
+    font-family: 'Montserrat';
+    color: #BF9E66;
+}
+
+/* ico-con */
+.ico-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 40%;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+/* one-ico */
+.one-ico{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+/* tow-sec */
+.two-ico{
+    display: flex;
+    width: 75%;
+    justify-content: space-between; 
+}
+.three-ico{
+    display: flex;
+    width: 40%;
+    justify-content: space-between; 
+}
+
+/* spec-2 */
+.spec-2 p{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+
+/* table-main-container */
+.table-main-container{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+/* table-container */
+.table-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* table */
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1.2em;
+    border: 2px solid #BF9E66;
+    font-weight: 550;
+    font-size: 17px;
+    font-family: 'Montserrat';
+}
+th {
+    color: white;
+    width: 30%;
+}
+td:nth-child(odd) {
+    width: 20%;
+    text-align: center;
+}
+td:nth-child(even) {
+    width: 70%;
+    text-align: left;
+    padding-left: 3em;
+}
+
+/* btn-con */
+.btn-con{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btun{
+    width: 275px;
+    height: 71px;
+    background-color: #BF9E66;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* modal */
+.modal-dialog {
+    width: 805px;
+    height: 839px;
+
+}
+.modal-content{
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.pop-header {
+    text-align: center;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modal-body .icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* email */
+
+.email-input label {
+    color: #aaa;
+}
+
+.email-input input {
+    width: 22.5rem;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.email-input input:focus {
+    outline: none;
+    border-bottom-color: #aaa;
+}
+.email-input input::placeholder {
+    color: #B4B4B4;
+}
+
+.modal-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-bottom .modal-btn{
+    width: 603px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #BF9E66;
+    color: white;
+}

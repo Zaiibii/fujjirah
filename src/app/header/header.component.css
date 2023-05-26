@@ -1,0 +1,462 @@
+.navbar{
+    height: 140px;
+    width: 100%;
+    z-index: 1;
+    background-color: #856C3F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+.logo-contain{
+  width: 29%;
+  display: flex;
+  justify-content: end;
+}
+.logo{
+    display: flex;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tooggle-btn */
+.tooggle-btn{
+  display:none;
+  cursor: pointer;
+}
+
+.logo-text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    line-height: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.top-section{
+    display: flex;
+    width: 67%;
+    height: 5vh;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.ul-container{
+  width:80%;
+  display: flex;
+}
+.top-ul{
+    display: flex;
+    width: 100%;  
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.top-ul li{ 
+    list-style: none;
+    font-size: 12px;
+}
+.inner-ic-contain{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+li.ic{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+li.ic span{
+  font-size: 14px;
+    font-weight: 20px;
+}
+.bi-question-circle{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.bi-gear{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.bi-search{
+    font-weight:600;
+    position: relative;
+    right: 30px;
+}
+#search-contain{
+  display: flex;
+  align-items: center;
+}
+input[type=text]{
+    border-radius: 20px;
+    width: 212px;
+    border: 1px solid white;
+    height: 35px;
+    font-size: 16px;
+    caret-color: rgb(255, 255, 255);
+    background-color:#856C3F;
+}
+input:focus{
+    width: 300px;
+    color: white;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+    position: relative;
+    left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.options-container{
+  display: flex;
+  width: 33rem;
+  justify-content: start;
+  align-items: start;
+}
+.inner-options{
+  display: flex;
+  width: 66%;
+}
+
+.lang-drop{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    background-color: #856C3F;
+    color: white;
+    padding: 8px;
+    bottom: none;
+    border: none;
+  }
+  
+.lang-opt{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .user{
+    margin-top: 5px;
+  }
+  .user img{
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: -5px;
+  }
+  .user-drop{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background-color: #856C3F;
+    color: white;
+    padding: 2px;
+    bottom: none;
+    border: none;
+  }
+  .user-opt{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  .eagle-logo{
+    width: 7%;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+
+  .menu-bar-contain{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+  
+  }
+ .menue-bar {
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menue-bar li {
+  margin-left: 10px;
+}
+
+.menue-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menue-bar ul li a {
+  color: #ffff;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+
+  .menue-bar li.active > a,
+.menue-bar li:hover > a {
+  color: #fff;
+  background-color: #930C19;
+}
+
+
+/* Apply hover effect to non-active submenu items */
+.menue-bar li.active ul li:not(.active) a:hover,
+.menue-bar li ul li:not(.active) a:hover {
+  color: #930C19;
+}
+
+/* Add active class to submenu items when their parent is active */
+.menue-bar li.active ul li.active > a,
+.menue-bar li.active ul li.active > a:hover {
+  color: #fff;
+  background-color: #930C19;
+}
+
+/* Remove hover effect from active submenu items */
+.menue-bar li.active ul li.active a:hover {
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+.menue-bar li > ul {
+  margin-top: 30px;
+  display: none;
+  min-width: 13rem;
+  margin: 0.7rem 0 0;
+  padding-bottom: 0.7rem;
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: left;
+  background-color: #fcf1dd;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.menue-bar li > ul>li {
+  font-size: 30px;
+}
+
+.menue-bar li:hover > ul {
+  display: block;
+}
+
+.menue-bar li > ul > li >a{
+  color: #000000;
+}
+.menue-bar li > ul > li >#imp-a{
+  color: #856C3F;
+}
+.menue-bar li > ul > li >a:hover{
+  background-color: transparent;
+  color: #000000;
+}
+
+@media  screen and (min-width: 1737px) and (max-width:18860px) 
+{
+
+  .navbar{
+    width: 100%;
+  }
+  .logo-contain{
+    width: 20%;
+  }
+
+  .logo-text{
+    font-size: 10px;
+}
+.top-ul li{ 
+  list-style: none;
+  font-size: 8px;
+}
+
+
+.menu-bar-contain{
+  display: flex;
+  justify-content: start;
+}
+.menue-bar ul li a {
+font-size: 10px;
+padding: 5px;
+}
+                                                                                                                                                                              
+}
+
+ @media  screen and (min-width: 1200px) and (max-width:1737px) {
+
+
+  .logo-contain{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    width: 17rem;
+    justify-content: flex-start;
+    align-items: center;}
+
+
+  .logo-text {
+    color: white;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    line-height: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+  .top-section {
+    display: flex;
+    width: 60%;
+    height: 5vh;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.top-ul{
+  width: 104%;
+}
+
+.menue-bar{
+  width: 100%;
+}
+
+.menu-bar-contain{
+  width: 116%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menue-bar li{
+  margin-left: -4px;
+}
+.menue-bar ul li a {
+  font-size: 12px;
+}
+
+
+
+} 
+
+/* Media query for screen 1080px max and 200px min */
+@media  screen and (min-width:200px) and (max-width:1060px){
+
+  .navbar{
+    width: 350%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+ .top-ul{
+  display: none;
+ }
+.logo{
+  display:none;
+}
+.logo-contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.tooggle-btn{
+  display: flex;
+}
+
+
+/* ul{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  left: 0px;
+  justify-content: space-evenly;
+  background-color: #856C3F;
+  width: 20rem;
+  height: 60vh;
+} */
+.menue-bar ul li{
+  margin-top: 20px;
+} 
+
+.eagle-logo{
+  display: none;
+}
+.menuClass{
+  display: none;
+}
+}
+
+@media (max-width:1200px){
+  .menu-bar-contain ul{
+    position: absolute;
+    top: 0;
+    left: -400px;
+    display: grid;
+    margin: 0;
+    top: 140px;
+    background:#ffe8be;
+    padding: 30px;
+    width: 400px;
+    height: 50vh;
+    transition: all 0.5s;
+  }
+
+  .menu-bar-contain ul.show{
+    left: 0;
+  }
+
+  .top-ul{
+    display: none;
+  }
+  .tooggle-btn{
+    display: flex;
+    margin: 20px 70px 0px 0px;
+  }
+  .logo{
+    display:none;
+  }
+  .eagle-logo{
+    display: none;
+  }
+  .navbar{
+    width: 260%;
+  }
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width:1200px){
+  .navbar{
+    width: 400%;
+    height: 27vh;
+  }
+}
+
+@media only screen and (min-width:200px) and (max-width:399px) {
+  .navbar{
+    width: 400%;
+  }
+}
+

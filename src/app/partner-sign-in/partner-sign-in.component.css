@@ -1,0 +1,226 @@
+/* Main-Container */
+.main-container{
+    height: 130vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 140vh;
+    margin-top: 170px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+/* card */
+.card{
+    width:1458px ;
+    height: 477px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card-container{
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* input mail */
+.input{
+    border-radius: 30px;
+    width: 340px;
+    border: 1px solid rgb(187, 187, 187);
+    height: 55px;
+    font-size: 14px;
+    caret-color: rgb(78, 77, 77);    
+}
+.input::placeholder{
+    color: rgb(145, 145, 145);
+    position: relative;
+    left: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input:focus{
+    color: rgb(53, 49, 49);
+    outline: none;
+}
+img{
+    position: relative;
+    left: 40px;
+    height: 31.57px;
+    width: 31.05px;
+}
+/* check-forgot */
+.check-forgot{
+    width: 30%;
+    margin-left: 30px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-check{
+    display: flex;
+    align-items: end;
+}
+input[type=checkbox]{
+    height: 20.26px;
+    width: 20.26px;
+}
+.check-forgot span{
+    color: #1B75BB;
+    cursor: pointer;
+}
+/* login Button */
+.login-btn{
+    width: 297.5px;
+    height: 47.94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color: #231F20;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.login-btn:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.login-btn:active{
+    color: #3883bd;
+}
+/* register */
+.register{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register span{
+    color: #1B75BB;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* Regiutser Container */
+/* Input Field */
+.main-page2{
+    width: 80%;
+    height: 120vh;
+    margin-top: 170px;
+}
+.card2{
+    width:1458px ;
+    height: 477px;
+    background-color: white;
+    border-radius: 30px;
+}
+/* inner-card-cont */
+.inner-card-sec1{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+/* .inner-card-sec2 */
+.inner-card-sec2{
+    display: flex;
+    justify-content: start;
+}
+#input-field2{
+    margin-top: 30px;
+}
+.input-field{
+    width: 45%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+ }
+ #input3{
+    margin-left: 73px;
+ }
+ .input-field p{
+     background-color: white;
+     position: relative;
+     padding: 0px 10px;
+     top: 30px;
+     right: 350px;
+     color: #707070;
+     font-family: 'Montserrat',sans-serif;
+ }
+ 
+ .input-field input[type=text]{
+     width: 586px;
+     height: 83px;
+     border-radius: 20px;
+     border: 1px solid #707070;
+ }
+ .input-field input[type=password]{
+    width: 586px;
+    height: 83px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+ .input-field span{
+    color: red;
+ }
+ /* Button */
+.inner-card-sec-3{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card-sec-3 .btn{
+    width: 189.9px;
+    height: 59.45px;
+    background-color:#BF9E66 ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+}

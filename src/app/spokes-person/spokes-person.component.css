@@ -1,0 +1,90 @@
+.main-container{
+    height: 140vh;
+    width: 100%;
+    background-color: rgb(251, 246, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page{
+    /* margin-top: 200px;
+    margin-left: 40px; */
+    width: 64.6%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.text-about{
+    margin-left: 40px;
+}
+.text-about p{
+    font-weight: 420;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* table-con */
+.table-con{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+/* card */
+.card{
+    width: 60%;
+    height: 585px;
+    border: none;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Montserrat','semiBold';
+    font-weight: 530;
+  }
+  table thead th{
+    padding: 20px 20px 20px 60px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Montserrat','Regular';
+  }
+table tbody td {
+    padding: 0px 0px 30px 60px;
+    text-align: left;
+  }
+  th:first-child, td:first-child {
+    width: 10%;
+  }
+  th:nth-child(2), td:nth-child(2) {
+    width: 30%;
+  }
+  th:nth-child(3), td:nth-child(3) {
+    width: 40%;
+  }
+  th:last-child, td:last-child {
+    width: 20%;
+  }
+  thead {
+    background-color: #ECD9A06E;
+    color: #856C3F;
+  }
+/* profile-img */
+.profile-img{
+    margin-top: 10px;
+    width: 122px;
+    height: 130px;
+    border-radius: 60px;
+    background-color:#5e543b79;
+    position: relative;
+    right: 20px;
+}
+img{
+    border-radius: 60px;
+    object-fit: contain;
+}

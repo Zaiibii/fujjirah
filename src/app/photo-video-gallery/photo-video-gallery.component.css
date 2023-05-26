@@ -1,0 +1,162 @@
+.main-container{
+    height: 190vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 20vh;
+    margin-top: 170px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+
+/* data-container */
+.data-container{
+    width: 80%;
+}
+/* sec-1 */
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+}
+/* left-sec-text */
+.left-sec-text{
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.left-sec-text ul li{
+    list-style: none;
+}
+
+.left-sec-text a{
+    color: #856C3F;
+    font-weight: 550;
+}
+.left-sec-text p{
+    font-family: 'Montserrat';
+    color: #707070;
+}
+
+/* 1st-sec-right-side */
+/* option */
+.select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#GITEX{
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 258px;
+    color: #000000;
+    background-color: white;
+    height: 40px;
+    border: 1px solid rgb(201, 196, 196);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/select-arrow.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 7% bottom 45%;
+  padding-right: 20px; 
+  }
+
+
+
+  /* sec-2 */
+  .sec-2{
+    width: 80%;
+    width: 1px solid red;
+  }
+/* 2nd sec- 2nd image */
+/* sec-2 */
+.sec-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.image-container{
+    background-image: url('/assets/images/news-card-3.png');
+    width: 352px;
+    height: 272px;
+    background-size: cover;
+    background-color: rgba(39, 8, 3, 0.781);
+    background-blend-mode:multiply;
+    cursor: pointer;
+  
+  }
+  .image-container:hover{
+    background-color: rgba(150, 40, 20, 0.781);
+    background-blend-mode:normal;
+    cursor: pointer;
+  }
+  /* icons */
+  .icons{
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons {
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+
+  }
+  .image-container:hover .icons {
+    visibility: hidden;
+  }
+  .ico-img:hover {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+
+
+
+
+  
+  /* sec-3 */
+  .sec-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 10px;
+  }

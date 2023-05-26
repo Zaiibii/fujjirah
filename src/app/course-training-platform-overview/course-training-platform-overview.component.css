@@ -1,0 +1,61 @@
+.main-container{
+    height: 1096.67px;
+    width: 100%;
+    background-color: rgb(251, 246, 237);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.main-page{
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 70%;
+}
+.text-about{
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+.text-about h1{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 550;
+}
+
+.text-about p{
+    font-weight: 420;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-one{
+    display: flex;
+    justify-content: start;
+}
+
+/* section-two */
+.section-two{
+    display: flex;
+}
+.section{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 314.67px;
+    height: 90.13px;
+    cursor: pointer;
+}
+.section:hover{
+    background-color: #856C3F;
+    color: white;
+}
+.selection a:hover{
+    color: white;
+}

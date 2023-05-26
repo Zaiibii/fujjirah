@@ -1,0 +1,114 @@
+<div class="main-container">
+  <div class="side-bar">
+    <app-side-bar-menue ></app-side-bar-menue>
+</div> 
+    <div class="sign-card" *ngIf="!displayRegisterForm " >
+        <div class="sec-1">
+            <p class="p1">Please Login Here</p>
+        </div>
+        <div class="sec-2"> 
+            <h1 class="p2">Get Started with UAE PASS</h1>
+        </div>
+        <div class="sec-3">
+            <div class="sign-in-btn" >
+                <p class="p3" (click)="showRegisterForm()">Sign in with UAE PASS</p>
+            </div>
+        </div>
+        <div class="sec-4">
+            <p class="p4">A Single Trusted Digital identity for All the Citizens, <br> Residents and Visitors</p>
+        </div>
+        <div class="sec-5">
+            <p class="p5">For More information. Please Check The User Manual Form <span>Here</span></p>
+        </div>
+    </div>
+    <div class="register-con" *ngIf="displayRegisterForm">
+        <div class="data-con">
+          <div class="breadcrumb-1">
+            <nav aria-label="breadcrumb-container">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-door-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+                    />
+                  </svg>
+                  <a routerLink="laws-regulations">Services</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a routerLink="laws-regulations">Saadati Card</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+              <div class="text-con">
+                <div class="h2"> <h2>Register for New Card</h2></div>
+                <div class="card">
+                    <div class="para">
+                      <p>the membership code entered is incorrect or invalid</p>
+                    </div>
+                    <div class="input-field">
+                        <p>Enter your workplace membership code</p>
+                        <input type="text">         
+                    </div>
+                    <div class="btn-submit">
+                      <span (click)="showlogin()">Submit</span>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="profile-page" *ngIf="displayRegisterForm">
+      <div class="profile-con">
+        <p>Personal Profile Page</p><hr style="width:99%">
+        <div class="card">
+          <div class="card-sec-1">
+            <div class="logo">
+              <img src="../assets/images/profile.jpg" alt="profile" height="156.47px" width="156.47px">
+            </div>
+            <div class="text">
+              <h2>Usman Ahmad</h2>
+              <p>+972 3233 22 332</p>
+              <p>usman@gmail.com</p>
+            </div>
+          </div>
+          <div class="sec-2">
+            <div class="left-item-sec">
+              <p>Personal information</p>
+              <p class="active1">Sadaati Service</p>
+              <p>Training & Development Service</p>
+              <p>Job Seekers Service</p>
+              <p>Log Out</p>
+            </div>
+            <div class="right-card">
+              <div class="inner-left-sec">
+                <p>Membership No: UA-21222</p>
+                <p class="active2">Sadaati Digital Card</p>
+                <p>Company Name</p>
+                <p>Membership Start date: 22-12-22</p>
+                <p>Membership End date: 22-12-24</p>
+                <p>Status: Active</p>
+              </div>
+              <div class="inner-right-sec">
+                <div class="img">
+                  <img src="../assets/images/ic1.png" alt="ic1" height="236px" width="335px">
+                </div>
+                <div class="iconi">
+                  <div class="icon-img">
+                    <img src="../assets/images/brown-arrow.png" alt="" height="25.09px" width="20.91px">
+                    <img src="../assets/images/brown-printer.png" alt="" height="25.09px" width="20.91px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

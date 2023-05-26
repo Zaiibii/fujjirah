@@ -1,0 +1,18 @@
+.side-bar img{
+    position: sticky;
+    left: 135px;
+    height:372.53px ;   
+    width: 66.24px;
+    z-index: 100;
+}
+.side-bar{
+        position: fixed;
+        top: 79%;
+        left: 6.5%;
+        transform: translate(-50%, -50%);
+}
+.side-bar {
+        display: block;
+        margin: 0 auto;
+      }
+      

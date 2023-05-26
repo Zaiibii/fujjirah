@@ -1,0 +1,234 @@
+<div class="main-container">
+    <div class="main-page">
+          <div class="breadcrumb-1">
+              <nav aria-label="breadcrumb-container">
+                  <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-house-door-fill"
+                      viewBox="0 0 16 16"
+                      >
+                      <path
+                          d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+                      />
+                      </svg>
+                      <a routerLink="laws-regulations">Services</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                      <a routerLink="laws-regulations">Saadati Card</a>
+                  </li>
+                  </ol>
+              </nav>
+          </div>
+
+          <!-- side-bar -->
+          <div class="side-bar">
+            <app-side-bar-menue ></app-side-bar-menue>
+          </div>  
+          <!-- Register for Partner -->
+          <div class="text-con">
+              <div class="text-inner-con">
+                  <h2>Register for Partner</h2>
+                      <div class="btn-login">
+                          <span>Sign in</span>
+                      </div>
+              </div>
+              <hr style="width: 100%; margin-top: -30px;" />
+          </div>
+          <!-- Card -->
+        <div class="card">
+            <div class="card-con">
+                <div class="main-sec">
+                    <div class="left-field">
+                        <p>Email <span> *</span></p>
+                        <input type="email" class="email" name="" id="">
+                    </div>
+                    <div class="right-field">
+                        <p>License renewal date</p>
+                        <input type="date"  class="date" id="start" name="trip-start"  placeholder="select a date" >
+                        <span id="date-icon"></span>
+                    </div>
+                </div>
+                <div class="main-sec">
+                    <div class="left-field">
+                        <p style="width: 10rem;">Password <span> *</span></p>
+                        <input type="email" class="email" name="" id="">
+                    </div>
+                    <div class="right-field">
+                        <p>License expiration date</p>
+                        <input type="date"  class="date" id="start" name="trip-start"  placeholder="select a date">
+                    </div>
+                </div>
+
+                <div class="main-sec">
+                    <label>
+                        <p style="width: 15rem;">Confirm password <span> *</span></p>
+                        <input type="email" class="email" name="" id="">
+                    </label>
+                    <label style="display: flex; justify-content: center; align-items: end;">
+                        <div class="image-upload">
+                            <p style="width: 12rem;">Company Logo</p>
+                            <label for="file-input" style="display: flex; justify-content: end; padding-right: 30px; position: relative; bottom: 10px;">
+                                <img src="../assets/images/clip.png" alt="choose-file" >
+                            </label>
+                            <input type="file"  class="file" id="file-input" name="trip-start"  placeholder="select a date">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="main-sec" id="four-sec">
+                    <div class="left-field">
+                        <div class="select-div">
+                            <p style="width: 19rem;">Company name in Arabic  <span> *</span></p>
+                            <select name="emirates" id="emirates-select">
+                                <option selected></option>
+                                <option value="1">USA</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Qatar</option>
+                                <option value="4">UAE</option>
+                                <option value="5">Italy</option>
+                                <option value="6">Pakistan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="right-field">
+                        <p style="width: 19rem;">Company name in English <span> *</span></p>
+                        <input type="email" class="email" name="" id="">
+                    </div>
+                </div>
+                <div class="main-sec" id="five-sec">
+                    <div class="left-field" style="display: flex; justify-content: center; align-items: end;">
+                        <div class="image-upload" style="width: 553px;">
+                            <p style="width: 29rem; position: relative; top: -13px;">Name of the person authorized to cooperate</p>
+                            <label for="file-input" style="display: flex; justify-content: end; margin-top: -10px; margin-right: 30px;">
+                                <img src="../assets/images/clip.png" alt="choose-file" >
+                            </label>
+                            <input type="file"  class="file" id="file-input" name="trip-start"  placeholder="select a date">
+                        </div>
+                    </div>
+                    <div class="right-field">
+                        <p style="width: 36rem;">Mobile number of the person authorized to Cooperate<span> *</span></p>
+                        <input type="text" class="text" name="" id="">
+                    </div>
+                </div>
+                <div class="main-sec" id="six-sec">
+                    <div class="left-field">
+                        <div class="select-div">
+                            <p style="width: 19rem;">Company name in Arabic  <span> *</span></p>
+                            <select name="Arabic" id="arabic-select">
+                                <option selected></option>
+                                <option value="1">USA</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Qatar</option>
+                                <option value="4">UAE</option>
+                                <option value="5">Italy</option>
+                                <option value="6">Pakistan</option>
+                            </select>
+                        </div>
+                    </div>    
+                        <div class="right-field">
+                            <div class="select-div">
+                                <p style="width: 19rem;">Company name in Arabic  <span> *</span></p>
+                                <select name="Arabic" id="arabic-select">
+                                    <option selected></option>
+                                    <option value="1">USA</option>
+                                    <option value="2">Canada</option>
+                                    <option value="3">Qatar</option>
+                                    <option value="4">UAE</option>
+                                    <option value="5">Italy</option>
+                                    <option value="6">Pakistan</option>
+                                </select>
+                            </div>
+                        </div>
+                </div>
+                <!-- seven sec -->
+                <div class="main-sec" id="seven-sec">
+                    <p style="width: 19rem;">Company name in Arabic  <span> *</span></p>
+                    <input type="text" class="text-message-sec">
+                </div>
+                <!-- eight sec -->
+                <div class="main-sec" id="seven-sec">
+                    <p style="width: 19rem;">Company name in Arabic  <span> *</span></p>
+                    <input type="text" class="text-message-sec">
+                </div>
+                <!-- nine sec -->
+                <div class="main-sec" id="nine-sec">
+                    <div class="left-field" style="display: flex; justify-content: center; align-items: end;">
+                        <div class="image-upload" style="width: 555px;">
+                            <p style="width: 17rem; position: relative; top: -13px;">Attach the commercial</p>
+                            <label for="file-input" style="display: flex; justify-content: end; margin-top: -10px; margin-right: 30px;">
+                                <img src="../assets/images/clip.png" alt="choose-file" >
+                            </label>
+                            <input type="file"  class="file" id="file-input" name="trip-start"  placeholder="select a date">
+                        </div>
+                    </div>
+                    <div class="right-field" style="display: flex; justify-content: center; align-items: end; width: 555px; margin-right: 60px;">
+                        <div class="image-upload">
+                            <p style="width: 18rem; position: relative; top: -13px;">Other attachments</p>
+                            <label for="file-input" style="display: flex; justify-content: end; margin-top: -10px; margin-right: 30px;">
+                                <img src="../assets/images/clip.png" alt="choose-file" >
+                            </label>
+                            <input type="file"  class="file" id="file-input" name="trip-start"  placeholder="select a date">
+                        </div>
+                    </div>
+                </div>
+                <!-- ten-sec -->
+                <div class="main-sec">
+                    <div class="left-field">
+                        <p style="width: 19rem;">Company name in English <span> *</span></p>
+                        <input type="email" class="email" name="" id="">
+                    </div>
+                    <div class="right-field" id="updown-load" style="display: flex; justify-content: center; align-items: end; width: 555px; margin-right: 60px;">
+                        <div class="image-upload">
+                            <p style="width: 18rem; position: relative; top: -13px;">Other attachments</p>
+                            <label for="file-input" style="  margin-top: -10px; margin-right: 30px; display: flex; justify-content: space-between; align-items: center;" >
+                                <div class="div">
+                                    <img src="../assets/images/clip.png" alt="choose-file" style="margin-left: 20px;" >
+                                </div>
+                                <div class="div">
+                                    <img src="../assets/images/download-icon3.png" alt="download-icon" >
+                                </div>
+                            </label>
+                            <input type="file"  class="file" id="file-input" name="trip-start"  placeholder="select a date">
+                        </div>
+                    </div>
+                </div>
+                <!-- eleven sec -->
+                <div class="main-sec" id="eleven-sec" style="   display: flex;
+                    justify-content: start; margin-left: 90px; "> 
+                    <div class="left-field " >
+                        <p style="width: 11rem; ">Social media<span> *</span></p>
+                        <div class="input" id="social-field" style="border-radius: 20px;">
+                            <div class="inner-field">
+                                <div class="url">
+                                    <span class="span-social">URL</span>
+                                    <span class="span-social2">facebook.com/sadaati.32</span>
+                                </div>
+                                <div class="link-text">
+                                    <span class="span-social">Link Text</span>
+                                    <span class="span-social2">Facebook</span>
+                                </div>
+                            <div class="btns">
+                                <div class="left-btn">
+                                    <span>Add items</span>
+                                </div>
+                                <div class="right-btn">
+                                    <span>Add item</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+    <div class="centre-btn">
+        <div class="submit-btn">
+            <span>Submit</span>
+        </div>
+      </div>
+</div>

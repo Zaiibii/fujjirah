@@ -1,0 +1,328 @@
+.main-container{
+    height: 430vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.main-page{
+    width: 80%;
+    height: 380vh;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-con{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 30vh;
+    margin-bottom: 20px;
+}
+.text-inner-con{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 15vh;
+    width: 65%;
+}
+.btn-login{
+    width:115px ;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #BF9E66;
+    color: white;
+    margin-right: 90px;
+}
+/*card */
+.card{
+    width: 95%;
+    height: 220vh;
+    border-radius: 40px;
+    margin-top: 50px;
+    display: flex;
+}
+.card-con{
+    margin-top: 80px;
+    height: 60vh;
+}
+
+/* main-sec */
+.main-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* input[type=email] */
+.email{
+    width: 555px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+/* icon css */
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+    display: none;
+}
+input[type="date"]:valid::-webkit-datetime-edit {
+    display: block;
+  }
+input[type="date"]::-webkit-calendar-picker-indicator { 
+    opacity: 0.5;
+}
+
+
+.date{
+    width: 608px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+ p{
+    width: 16rem;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-family: 'Montserrat','Regular';
+    font-size: 20px;
+    color: #707070;
+}
+/*  calender-icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('/assets/images/calender3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    
+  }
+  
+  .file {
+    width: 608px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    overflow: hidden; /* hide the default button text */
+  }
+  
+  .file input[type="file"] {
+    opacity: 0; /* hide the default button */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-upload>input {
+    display: none;
+  }
+  .image-upload{
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 20px;
+    width: 608px;
+    height: 85px;
+  }
+  
+
+  /* four-sec */
+#four-sec{
+    display: flex;
+    justify-content: space-evenly;
+    width: 96.25%;
+}
+
+  /* Arrow icon */
+  .select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#emirates-select{
+    font-size: 16px;
+    width: 555px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    color: #a39f9f;
+    background-color: white;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/select-arrow.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+
+  /* sec:5 text right-field */
+  .text{
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+/* five-sec */
+#five-sec .left-field{
+    margin-left: 40px;
+}
+#five-sec .right-field{
+    margin-left: 43px;
+}
+
+/* six sec */
+#six-sec{
+        display: flex;
+        width: 96.25%;
+}
+.select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#arabic-select{
+    font-size: 16px;
+    width: 555px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    color: #a39f9f;
+    background-color: white;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/sort-down.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+
+  /* seven-sec */
+  #seven-sec{
+    width: 90.5%;
+    margin-left: 90px;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #a39f9f;
+  }
+
+  #seven-sec p{
+    width: 8rem;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-family: 'Montserrat','Regular';
+    font-size: 20px;
+    color: #707070;
+}
+  .text-message-sec{
+    width: 1202px;
+    height:228px ;
+    border-radius: 20px;
+    border: 1px solid #9e9a9a;
+  }
+  /* nine-sec */
+  #nine-sec{
+    display: flex;
+    justify-content: space-evenly;
+  }
+ 
+  /* Eleven -sec */
+  .eleven-sec{
+    display: flex;
+    justify-content: start;
+  }
+  #social-field{
+    width: 555px;
+    height: 161px;
+    border: 1px solid rgb(129, 129, 129);
+  }
+  .inner-field{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+
+  .url{
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link-text{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btns{
+    margin-top: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-btn{
+    background-color: #BF9E66;
+    color: white;
+    border-radius: 10px;
+    width: 96px;
+    height: 31px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-btn{
+    background-color: #BF9E66;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 96px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .span-social2{
+    font-family: 'Montserrat','Regular';
+    color: #D5C6C6;
+  }
+  .span-social{
+    font-family: 'Montserrat','Regular';
+    font-weight: 550;
+  }
+  /* centre-btn */
+  .centre-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.submit-btn{
+    width: 315px;
+    height: 72px;
+    border-radius: 30px;
+    background-color: #BF9E66;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Montserrat','Regular';
+
+}

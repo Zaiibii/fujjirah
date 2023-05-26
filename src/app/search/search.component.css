@@ -1,0 +1,125 @@
+.search-container{
+    width: 475px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 11vh;
+    margin-top: 9px;
+    border-radius: 20px;
+    background-color: white;
+}
+.ring{
+    width: 80px;
+    height: 8vh;
+    font-weight: bold;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(104, 98, 98);
+    margin: 10px 0px 0px 0px;
+}
+.search p{
+    opacity: 0.5;
+    font-size: 18px;
+    color: #7C643E;
+    position: relative;
+    top: 10px;
+}
+.search input[type=text]{
+    width: 20.5rem;
+    height: 3.5vh;
+}
+#search-arrow{
+    position: relative;
+    right: 50px;
+}
+
+.ring #icon{
+    height: 36px;
+    width:36px ;
+}
+
+@media only screen and (min-width:200px) and (max-width:530px){
+
+    .ring {
+        width: 200px;
+        height: 173px;
+        margin-top: 10px;
+    }
+
+    .ring #icon{
+        height: 107px;
+        width:
+         107px;
+    }
+
+    .search-container{
+        width: 76rem;
+        display: flex;
+        position: relative;
+        left: -4px;
+        align-items: center;
+        height: 49vh;
+        padding-bottom: 20px;
+}
+
+    .search input[type=text] {
+        width: 52.5rem;
+        height: 16.5vh;
+        margin-top: 14px;
+        margin-right: -43px;
+        margin-left: 2px;
+    }
+
+
+    .search  p {
+        font-size: 69px;
+        position: relative;
+        top: 7px;
+        opacity: 0.9px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+ input[type="text"]::placeholder {
+        left: 20px;
+        font-size: 48px;
+        position: relative;
+    }
+
+    #search-arrow {
+        position: relative;
+        right: 50px;
+        font-size: 38px;
+    }   
+
+}
+
+@media only screen and (min-width:530px) and (max-width:1200px){
+    .search-container{
+        width: 763px;
+        margin-left: 178px;
+        height: 20vh;
+        margin-top: 128px;
+    }
+
+    .ring{
+        width: 116px;
+        height: 15vh;}
+
+
+    .search input[type=text]{
+        
+    width: 28.5rem;
+    height: 7.5vh;
+
+    }
+
+    .search p{
+        font-size: 35px;
+    }
+    .ring #icon{
+        width:64px ;
+        height: 64px;
+    }
+}

@@ -1,0 +1,271 @@
+.main-container{
+    height: 280vh;
+    background-color: #F6F4F0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main-Page */
+.main-page{
+    width: 80%;
+    height: 20vh;
+    margin-top: 120px;
+    
+}
+
+/* Breadcrumb */
+.breadcrumb-item a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+    margin-left: 30px;
+}
+
+/* Text-Container */
+.text-con{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.text-inner-con h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat-SemiBold',sans-serif;  
+}
+
+/*card */
+.card{
+    width: 100%;
+    height: 170vh;
+    border-radius: 40px;
+    display: flex;
+    padding-right: 70px;
+}
+.card-con{
+    margin-top: 80px;  
+}
+
+/* main-sec */
+.main-sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* left-field */
+.left-field{
+width: 586px;
+height: 84px;
+}
+
+
+/* right-field */
+.right-field{
+width:578px ;
+height: 84px;
+}
+
+.left-field p{
+    width: 8rem;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-family: 'Montserrat','Regular';
+    font-size: 20px;
+    color: #707070;
+}
+/* input[type=email] */
+.email{
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+
+/* password */
+.password{
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;  
+}
+
+
+/* icon css */
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+    display: none;
+}
+input[type="date"]:valid::-webkit-datetime-edit {
+    display: block;
+  }
+input[type="date"]::-webkit-calendar-picker-indicator { 
+    opacity: 0.5;
+}
+
+.right-field p{
+    width: 16rem;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-family: 'Montserrat','Regular';
+    font-size: 20px;
+    color: #707070;
+}
+
+  /* Arrow icon */
+  .select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#emirates-select{
+    font-size: 16px;
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    color: #a39f9f;
+    background-color: white;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/sort-down3.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+
+  .text{
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+}
+#radio-field label{
+    font-size: 20px;
+    color: #707070;
+}
+
+/* label-2 */
+#label-2{
+    margin-left: 20px;
+}
+#radio-field   input[type="radio"] {
+    transform: scale(1.5); /* Increase the size by 50% */
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+/* radio-field */
+#radio-field{
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=radio]{
+    border:2px solid white;
+    box-shadow:0 0 0 1px #bf9e66;
+    appearance:none;
+    border-radius:50%;
+    width:14px;
+    height:14px;
+    background-color:#fff;
+    transition:all ease-in 0.2s;
+  
+  }
+  input[type=radio]:checked{
+    background-color:#BF9E66;
+  }
+
+
+
+
+
+.select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#arabic-select{
+    font-size: 16px;
+    width: 649px;
+    height: 85px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    color: #a39f9f;
+    background-color: white;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/sort-down2.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+  .text-message-sec{
+    width: 1202px;
+    height:228px ;
+    border-radius: 20px;
+    border: 1px solid #9e9a9a;
+  }
+  /* nine-sec */
+  #nine-sec{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+ 
+  /* btns */
+  .btns{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-btn{
+    width:315px ;
+    height:72px ;
+    background-color: white;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    cursor: pointer;
+  }
+  .right-btn{
+    width:315px ;
+    height:72px ;
+    cursor: pointer;
+    background-color:#BF9E66;
+    border: 1px solid #707070;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }

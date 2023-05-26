@@ -1,0 +1,154 @@
+.main-container{
+    height: 1096.67px;
+    width: 100%;
+    background-color: rgb(251, 246, 237);
+    display: flex;
+    justify-content: center;
+}
+
+.main-page{
+    margin-top: 320px;
+    margin-left: 40px;
+    width: 70%;
+}
+.breadcrumb-item a{
+    color: black;
+    text-decoration: none;
+}
+.text-about{
+    margin-left: 20px;
+}
+.text-about p{
+    font-weight: 420;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sections{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.section{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 314.67px;
+    height: 90.13px;
+    cursor: pointer;
+}
+.section:hover{
+    background-color: #856C3F;
+    color: white;
+}
+.selection a:hover{
+    color: white;
+}
+
+.about-us-instant-icon{
+ color: blue; 
+ 
+} 
+.menu-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .menu-link:hover {
+    color: #555;
+  }
+
+  @media only screen and (max-width:1500px){
+    .main-container{
+        height: 270vh;
+    width: 400%;
+    }
+
+    .main-page{
+        width: 100%;
+        margin-top: 240px;
+    }
+
+    .breadcrumb-item a{
+        font-size: 45px;
+    }
+    
+    .breadcrumb{
+        margin-bottom: 55px;
+    }
+    h1{
+        font-size: 6rem;
+    }
+    .text-about p{
+        font-size: 60px;
+    }
+
+    .section{
+        width: 83rem;
+        height: 42vh;
+        font-size: 59px;  
+    }
+  }
+
+
+
+
+  
+  @media only screen and (max-width:1024px){
+    .main-container{
+        height: 217vh;
+    width: 400%;
+    }
+
+    .main-page{
+        width: 100%;
+        margin-top: 240px;
+    }
+
+    .breadcrumb-item a{
+        font-size: 45px;
+    }
+    
+    .breadcrumb{
+        margin-bottom: 55px;
+    }
+    h1{
+        font-size: 6rem;
+    }
+    .text-about p{
+        font-size: 60px;
+    }
+
+    .section{
+        width: 64rem;
+        height: 42vh;
+        font-size: 59px;  
+    }
+
+  }
+
+  @media only screen and (max-width:542px){
+    
+    .main-container{
+        height: 275vh;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    .text-about p{
+        font-size: 45px;
+    }
+
+    .section{
+        width: 55rem;
+        height: 35vh;
+        font-size: 51px;    
+    }
+  }

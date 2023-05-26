@@ -1,0 +1,336 @@
+/* .carousel{
+    background-color: rgb(251, 246, 237);
+} */
+.main-container{
+    height: 230vh;
+    width: 100%;
+    background-color: rgb(246, 244, 240);
+}
+.sub-container{
+      display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.main-page{
+    margin-top: 100px;
+    /* margin-left: 40px; */
+    width: 70%;
+}
+.breadcrumb{
+    margin-bottom: 40px;
+}
+.text-about{
+    margin-left: 60px;
+}
+.saadati-card{
+    width: 100%;
+    display: flex;
+}
+.text-sec{
+    width: 50%;
+}
+.text-sec .head h1{
+    font-family: 'Montserrat-SemiBold',sans-serif;
+    font-weight: 500;
+}
+.para{
+    width: 90%;
+    font-weight: 420;
+    font-size: 18px;
+    font-family: 'Montserrat-SemiBold',sans-serif;
+    display: flex;
+    align-items: end;
+}
+.card-img-cont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.card-img img{
+    margin-bottom: 20px;
+}
+
+.sections-cont-1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 30vh;
+
+}
+.section{
+    display: flex;
+    background-color:#856C3F;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 380px;
+    cursor: pointer;
+    height: 90.13px;
+}
+.section span{
+    width: 13rem;
+    margin-right: 70px;
+    font-family: 'Montserrat-SemiBold',sans-serif;
+    font-size: 20px;
+}
+.section:hover{
+    background-color: white;
+    color: #856C3F;
+    border: 1px solid #856C3F;
+}
+.selection a:hover{
+    color: #856C3F;
+}
+
+/* .select-1{
+    width: 482.35px;
+    height: 62.68px;
+    background-color: white;
+    border: 1px solid rgb(201, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 10px;
+} */
+/* .select-1 span{
+    font-size: 16px;
+    color: rgb(201, 196, 196);
+    margin: 10px 0px 0px 30px;
+
+} */
+.section-con-2{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+.select-1{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.select-2{
+    display: flex;
+    align-items: center;
+    width: 50%  ;
+}
+.select-div{
+    background-color: white;
+    border-radius: 30px;
+}
+#emirates-select{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 482.35px;
+    color: #a39f9f;
+    background-color: white;
+    height: 62.68px;
+    border: 1px solid rgb(201, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    /* padding: 15px; */
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('/assets/images/select-arrow.png') no-repeat right center;
+  background-size: 16px 16px;
+  background-position: right 4% bottom 45%;
+  padding-right: 20px; 
+  }
+
+.about-us-instant-icon{
+ color: blue; 
+ 
+} 
+.menu-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .menu-link:hover {
+    color: #555;
+  }
+  .button-open{
+    width: 77%;
+    height: 250px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  } 
+
+.section-con-3{
+    width: 1401.39px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-one{
+    width: 90%;
+    height:8vh ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    width: 191.89px;
+    height: 43.86px;
+    background-color: #BF9E66;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+.item-two-con{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content:end;
+}
+.item-two{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* section 4 */
+.section-con-4{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.card-con{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 330px;
+    border-radius: 10px;
+    height: 420px;
+}
+.card-sec-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 6vh;
+    width: 80%;
+    margin-left: 20px;
+}
+.tag-ico{
+    background-color: #856C3F;
+    color: aliceblue;
+    border-radius: 30px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text span{
+    font-size: 22px;
+    color: #856C3F;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+#span1{
+    margin-right: 50px;
+}
+#span2{
+margin-left: 0px;
+}
+#span3{
+    width: 100%;
+    margin-left: 60px;
+}
+.card-sec-two{
+    width: 80%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card-sec-two span{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    color: #C3C8D8;
+}
+.card-sec-three{
+    margin-left: 20px;
+    padding: 10px;
+    color: #707070;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.card-sec-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-sec-five{
+    width: 100%;
+    height:10vh ;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+}
+.card-sec-five .left-text{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+}
+
+.right-btn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.right-btn span{
+    border: 1px solid #856C3F;
+    width: 101px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #856c3f;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right-btn span:hover{
+    color: white;
+    background-color: #856C3F;
+}

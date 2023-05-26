@@ -1,0 +1,79 @@
+.main-container{
+    height:1309.7px;
+    width: 100%;
+    padding: 0px;background-color: rgb(254, 247, 235);
+
+}
+.breadcrumb{
+    display: flex;
+}
+.breadcrumb .bi-house-door-fill{
+    margin-bottom: 5px;
+}
+.breadcrumb-item a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.all-data{
+    display: flex;
+    padding-bottom: 200px;
+    margin-left: 60px;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    margin-left: 220px;
+}
+.text-container{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+   justify-content: space-evenly;
+   margin-top: -150px;
+   margin-left: 183px;
+}
+.sec-one{
+    width: 25%;
+}
+.sec-two{
+width: 25%;
+}
+.sec-three{
+    width: 25%;
+}
+h1{
+    font-size: 30px;
+    color: #7F8284;
+}
+.message{
+    display: flex;
+    margin-top: 50px;
+}
+.sec-two .message{
+    margin-top: 86px;
+}
+.message p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.image1{
+    background-color: aliceblue;
+    height: 293px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2{
+    background-color: aliceblue;
+    height: 57.7vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

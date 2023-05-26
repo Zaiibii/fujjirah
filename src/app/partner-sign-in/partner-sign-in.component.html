@@ -1,0 +1,145 @@
+<!-- Main -Container -->
+<div class="main-container">
+    <!-- Main-Page -->
+    <div class="main-page" *ngIf="!displayRegister">
+        <!-- Breadcrumb -->
+          <div class="breadcrumb-1">
+              <nav aria-label="breadcrumb-container">
+                  <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-house-door-fill"
+                      viewBox="0 0 16 16"
+                      >
+                      <path
+                          d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+                      />
+                      </svg>
+                      <a routerLink="laws-regulations">Services</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                      <a routerLink="laws-regulations">Saadati</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a routerLink="laws-regulations">Partner</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a routerLink="laws-regulations">Sign in</a>
+                </li>
+                  
+                  </ol>
+              </nav>
+          </div>
+          <!-- Text-Container -->
+          <div class="text-con">
+              <div class="text-inner-con">
+                  <h2>Partners Sign in</h2>
+              </div>
+              <hr style="width: 100%" />
+          </div>
+          <!-- Card main conatiner -->
+          <div class="card">
+            <div class="inner-card-container">
+                <div class="text">
+                    <p>Please Login Here</p>
+                </div>
+                <div class="mail-input">
+                    <img src="../assets/images/person.png" alt="person">
+                    <input type="email" name="email" id="" class="input" placeholder="Email">
+                </div>
+                <div class="pass-input">
+                    <img src="../assets/images/lock.png" alt="person">
+                    <input type="password" name="" id="" class="input" placeholder="password">
+                </div>
+                <div class="check-forgot">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1" style="margin-left: 10px;"> Remember Me</label>
+                    </div>
+                    <span>Forgot Password</span>
+                </div>
+                <div class="login-btn">
+                    <span>Login</span>
+                </div>
+                <div class="register">  
+                    <p>Not Registered yet? <span (click)="showregister()"> Register Now</span></p>
+                </div>
+            </div>
+          </div>
+    </div>
+
+
+
+    <!-- Register Page -->
+    <div class="main-page-2" *ngIf="displayRegister">
+        <div class="main-page">
+        <!-- Breadcrumb -->
+          <div class="breadcrumb-1">
+              <nav aria-label="breadcrumb-container">
+                  <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-house-door-fill"
+                      viewBox="0 0 16 16"
+                      >
+                      <path
+                          d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+                      />
+                      </svg>
+                      <a routerLink="laws-regulations">Services</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                      <a routerLink="laws-regulations">Saadati</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a routerLink="laws-regulations">Partner</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a routerLink="laws-regulations">Sign in</a>
+                </li>
+                  
+                  </ol>
+              </nav>
+          </div>
+          <!-- Text-Container -->
+          <div class="text-con">
+              <div class="text-inner-con">
+                  <h2>Partners Sign in</h2>
+              </div>
+              <hr style="width: 100%" />
+          </div>
+          <!-- Card main conatiner -->
+          <div class="card2">
+                <div class="inner-card-sec1">
+                    <div class="input-field">
+                        <p><span>*</span>To login in Email</p>
+                        <input type="text">         
+                    </div>
+                    <div class="input-field">
+                        <p><span>*</span> Password</p>
+                        <input type="password">         
+                    </div>
+                </div> 
+                  <div class="inner-card-sec2">
+                    <div class="input-field" id="input3">
+                        <p><span>*</span>Confirm Password</p>
+                        <input type="password">         
+                    </div>
+                  </div>
+                  <div class="inner-card-sec-3">
+                    <div class="btn" (click)="backtologin()">
+                        <span>Register</span>
+                    </div>
+                  </div>
+          </div>
+    </div>
+    </div>
+</div>
